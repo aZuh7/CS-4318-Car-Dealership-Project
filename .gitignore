@@ -1,0 +1,12 @@
+# Ignore MySQL data directory
+data/
+
+# Ignore MySQL socket file
+*.sock
+
+# Ignore binary logs, auto.cnf, ib_buffer_pool, etc.
+*.cnf
+*.index
+*.log
+*.ibd
+ib_buffer_pool
